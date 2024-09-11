@@ -38,7 +38,7 @@ body{
 }
 .image-container{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 50px;
   margin-bottom: 20px;
 }
