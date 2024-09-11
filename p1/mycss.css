@@ -1,29 +1,38 @@
 h1{
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue ;
   background-color: lightslategray;
   padding: 50px;
   font-size: 50px;
 }
 h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: dimgray ;
   background-color: silver;
   padding: 5px;
   font-size: 25px;
 }
-  footer{
+footer{
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
   padding: 3px;
   background-color: lightslategray;
   color: white;
 }
 li{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   color: dimgray ;
 }
+table{
+  
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
 }
