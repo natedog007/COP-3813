@@ -36,3 +36,12 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
 }
+.image-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.image-container figure {
+  margin: 0 10px;
+}
