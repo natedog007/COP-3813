@@ -3,35 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Responsive Registration Form | CodingLab </title>
+  <title> Project 3 </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Title section -->
-    <div class="title">Registration</div>
-    <div class="content">
-      <!-- Registration form -->
-      <form action="#">
-        <div class="user-details">
-          <!-- Input for Full Name -->
-          <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+    <div class="container">
+        <!-- Title and answer section -->
+        <div class="title-answer">
+          <div class="title">Calculate</div>
+          <div class="answer">
+            <p id="subtitle">Answer</p>
           </div>
-          <!-- Input for Username -->
-          <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required>
-          </div>
-    
-        <!-- Submit button -->
-        <div class="button">
-          <input type="submit" value="Register">
         </div>
-      </form>
-    </div>
-  </div>
-</body>
-    <script src="script.js"></script>
-</html>
+      
+        <div class="content">
+          <!-- Registration form -->
+          <form action="#">
+            <div class="answers">
+                <p id="max">1</p>
+                <p id="min">2</p>
+                <p id="mean">3</p>
+                <p id="average">4</p>
+                <p id="range">5</p>
+            </div>
+            
+            <div class="user-details">
+              <!-- Input for Full Name -->
+              <div class="input-box">
+                <span class="details">Number 1</span>
+                <input type="text" placeholder="Enter" required>
+              </div>
+              <!-- Input for Username -->
+              <div class="input-box">
+                <span class="details">Number 2</span>
+                <input type="text" placeholder="Enter" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Number 3</span>
+                <input type="text" placeholder="Enter" required>
+              </div>
+            </div>
+            <!-- Submit button -->
+            <div class="button">
+              <input type="submit" value="Calculate">
+            </div>
+          </form>
+        </div>
+      </div>
