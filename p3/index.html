@@ -17,36 +17,40 @@
         </div>
       
         <div class="content">
-          <!-- Registration form -->
+          <!-- Answers -->
           <form action="#">
             <div class="answers">
-                <p id="max">1</p>
-                <p id="min">2</p>
-                <p id="mean">3</p>
-                <p id="average">4</p>
-                <p id="range">5</p>
+                <p id="max">Max:</p>
+                <p id="min">Min:</p>
+                <p id="median">Median:</p>
+                <p id="average">Average:</p>
+                <p id="range">Range:</p>
             </div>
             
             <div class="user-details">
-              <!-- Input for Full Name -->
+              <!-- Input for 1e -->
               <div class="input-box">
                 <span class="details">Number 1</span>
-                <input type="text" placeholder="Enter" required>
+                <input id="number1" type="number" placeholder="Enter" required>
               </div>
-              <!-- Input for Username -->
+              <!-- Input for 2 -->
               <div class="input-box">
                 <span class="details">Number 2</span>
-                <input type="text" placeholder="Enter" required>
+                <input id="number2" type="number" placeholder="Enter" required>
               </div>
+              <!-- Input for 3 -->
               <div class="input-box">
                 <span class="details">Number 3</span>
-                <input type="text" placeholder="Enter" required>
+                <input id="number3" type="number" placeholder="Enter" required>
               </div>
             </div>
-            <!-- Submit button -->
+            <!-- Submit Calculation -->
             <div class="button">
-              <input type="submit" value="Calculate">
+              <input id="calculateButton" type="button" value="Calculate">
             </div>
           </form>
         </div>
       </div>
+        <script src="script.js"></script>
+    <body>
+
