@@ -1,22 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Projects</title>
-    </head>
-    <body>
-        <h1>Welcome to my projects on lamp.cse.fau.edu</h1>
-        <p>
-            These are the projects available on this area:
-        </p>
-        <ul>
-            <li><a href="./p1/index.html">Project 1</a></li>
-            <li><a href="./p2/index.html">Project 2</a></li>
-            <li><a href="./p3/index.html">Project 3</a></li>
-            <li><a href="./p4/index.html">Project 4</a></li>
-            <li><a href="./p5/index.php">Project 5</a></li>
-            <li><a href="./p6/index.php">Project 6</a></li>
-            <li><a href="./p7/index.php">Project 7</a></li>
-            <li><a href="./p8/index.html">Project 8</a></li>
-        </ul>
-    </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cool Bootstrap navigation bar</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <h1>Nathan Boyden's Projects</h1>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+      <div class="item menu">
+        <div class="linee linee1"></div>
+        <div class="linee linee2"></div>
+        <div class="linee linee3"></div>
+      </div>
+      <button class="item add">
+        <div class="circle">
+          <div class="close">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </div>
+        </div>
+        <input type="search" placeholder="search" class="search" />
+        
+      </button>
+      <div class="nav-items items1" onclick="navigateTo('./p1/index.html')">
+        <i class="fas fa-home">P1</i>
+      </div>
+      <div class="nav-items items2" onclick="navigateTo('./p2/index.html')">
+        <i class="fas fa-camera">P2</i>
+      </div>
+      <div class="nav-items items3" onclick="navigateTo('./p3/index.html')">
+        <i class="fas fa-folder">P3</i>
+      </div>
+      <div class="nav-items items4" onclick="navigateTo('./p4/index.html')">
+        <i class="fas fa-heart">P4</i>
+      </div>
+      <div class="box">
+        <div class="box-line box-line1"></div>
+        <div class="box-line box-line2"></div>
+        <div class="box-line box-line3"></div>
+        <div class="box-line box-line4"></div>
+      </div>
+    </div>
+
+    <div class="effect"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
